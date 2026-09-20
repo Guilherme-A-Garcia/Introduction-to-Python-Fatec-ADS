@@ -7,7 +7,7 @@ def subtrair():
     if int1 > int2:
         int3 = int1 - int2
     else:
-        int3 = in2 - int1
+        int3 = int2 - int1
 
 def main():
     global int1, int2, int3
