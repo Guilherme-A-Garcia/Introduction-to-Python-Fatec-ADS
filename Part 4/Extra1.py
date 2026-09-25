@@ -9,10 +9,12 @@ def calcFat(num: int) -> int:
 
 def main() -> None:
     n: int = 0
+    fat: int = 0
 
     n = int(input("Insira um número: "))
+    fat = calcFat(n)
 
-    print(calcFat(n))
+    print(fat)
 
 if __name__ == "__main__":
     main()
