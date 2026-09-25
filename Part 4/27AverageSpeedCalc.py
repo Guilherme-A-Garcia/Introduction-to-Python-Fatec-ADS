@@ -1,14 +1,12 @@
-def calcVelMed(tempo, circ, vlt):
-    tempo: float
-    circ: float
-    vm: float
+def calcVelMed(tempo: float, circ: float, vlt: float) -> float:
+    vm: float = 0
 
     tempo_h = tempo / 60
     circ_km = (circ/1000) * vlt
     vm = circ_km / tempo_h
     return vm
 
-def main():
+def main() -> None:
     voltas: float = 0
     circ_m: float = 0
     tempo_m: float = 0
