@@ -57,7 +57,7 @@ def main():
     while (vlr < 1 or vlr >= 10):
         vlr = int(input("Insira um valor entre 1 e 10: "))
 
-    for i in range(10):
+    for i in range(11):
         result = mult(vlr, i)
 
 if __name__ == '__main__':
