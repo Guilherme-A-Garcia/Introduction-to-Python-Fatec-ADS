@@ -1,7 +1,3 @@
-# 1) Fazer uma aplicação que rode 5 Threads que cada uma delas receba um inteiro chamado id
-# como parâmetro e imprima no console o texto “Thread N” + id. Antes de imprimir o valor, deve-
-# se fazer um sleep de 0.5 segundos.
-
 import multiprocessing
 import time
 
@@ -9,7 +5,6 @@ def task(id: int) -> None:
     time.sleep(0.5)
     print("Thread N.", id)
     
-
 def main() -> None:
     ids: int = [0]*5
     p: int = 0
