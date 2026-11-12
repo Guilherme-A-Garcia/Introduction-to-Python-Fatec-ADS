@@ -15,7 +15,6 @@ def task(sent):
 
 def main():
     global sentido
-    index: int = 0
     params: list = [0]*3
     sentido = multiprocessing.Value('i', 0)
 
